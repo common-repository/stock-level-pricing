@@ -1,0 +1,35 @@
+/* Pricing table on product page */
+
+/* To hide the textarea */
+.hidden-textarea {
+	display: none;
+}
+
+#stocklvl_pricing_rules_table_percent_variation_ th:last-child,
+#stocklvl_pricing_rules_table_fixed_variation_ th:last-child {
+	text-align: center;
+}
+
+input[name="stocklvl_percentage_change_variation_0"],
+input[name="stocklvl_stock_level_variation_0"] {
+	width: 10%;
+}
+
+/* Fix for notice height */
+.css-10klw3m {
+	height: auto !important;
+}
+
+/* General pricing rules down below */
+
+
+/* Parent container to hold both columns */
+#stock-level-rule-container {
+	display: flex;
+}
+
+/* Column for the form */
+#stock-level-rule-form {
+	flex: 0 0 60%;
+	padding: 1em;
+}
